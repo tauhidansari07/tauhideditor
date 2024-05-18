@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tauhid Editor</title>
+    <title>TA Editor</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
@@ -13,6 +13,7 @@
                 <li><a href="#about">About</a></li>
                 <li><a href="#portfolio">Portfolio</a></li>
                 <li><a href="#contact">Contact</a></li>
+                <li><a href="#milestone">Achievements</a></li>
             </ul>
         </nav>
     </header>
@@ -25,11 +26,13 @@
         <h1>Tauhid Ansari</h1>
         <h5>Editor</h5>
         <h3>About Me</h3>
-        <p>Best at color grading, videography,
-             editing all kind of short time video such as 
-             instagram reels or youtube short, also edits high res pictures,
-             a small background with a big dreams.  
+        <p> Welcome! I'm Tauhid, a passionate and dedicated video editor with 5 years of experience in bringing stories to life through dynamic and engaging visual content. My mission is to transform raw footage into polished, captivating videos that effectively convey your message and captivate your audience.
             </p>
+        <p>I have collaborated with a diverse range of clients, and have edited Youtube long videos, youtube short video, Instagram reels. My commitment to excellence and a keen eye for detail ensure that your video projects are not only technically sound but also visually stunning and emotionally impactful.</p> 
+        
+        <p>When I'm not editing, you can find me Circuit Engineering, coding, repairing electronic, video creator, always on the lookout for inspiration and new perspectives to bring to my work.</p>
+
+        <p>Let's collaborate to turn your vision into reality. Reach out today to discuss how I can help you achieve your goals!</p>
 
              <div class="expdetail">
                 <h3>Experiences</h3>
@@ -62,8 +65,20 @@
 
         </div>
         <div class="More-button">
-            <button>More</button>
+            <button onclick="document.location='https://drive.google.com/drive/folders/1Ss4Dc-hnbSNTHSFnR6Rza-0P0YESpmEF'">More</button> 
         </div>
+    </section>
+
+    <section id="milestone">
+         <h1>Achievements</h1>
+         <div class="yt-arc"> 
+            <img src="https://i.ibb.co/0sdbMJq/84981331568105.png" alt="Arc">
+          <div class="yt-text">Youtube Achievement </div>  
+        <div class="insta-arc">
+            <img src="https://i.ibb.co/P6VZh6v/IMG-20240518-103657.jpg" alt="arc">
+            <div class="insta-text">Instagram Achievement</div>
+        </div>
+         </div>
     </section>
 
     <section id="contact">
@@ -100,11 +115,13 @@ header {
 nav ul {
     list-style-type: none;
     padding-left: 20px;
+    
 }
 
 nav ul li {
     display: inline-block;
     margin-right: 20px;
+    margin-top: 8px;
 }
 
 nav ul li a {
@@ -176,7 +193,9 @@ section {
    height: 40px;
    cursor: pointer;
    border-radius: 5px;
-    
+}
+.More-button {
+    padding-left: 3.5%;
 }
 .video-container iframe {
     border-radius: 10px;
@@ -194,7 +213,11 @@ section {
     text-align: center;
     border-radius: 20%;
     margin-right: 10px;
+    
    
+}
+.fa:hover {
+    opacity: 0.7;
 }
 .fa-instagram {
     background-color: #e1306c;
@@ -211,6 +234,22 @@ section {
 .expdetail p {
     margin-top: -8px;
     text-decoration: underline;
+}
+.yt-arc img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.yt-text, .insta-text {
+    margin-left: 45px;
+    margin-top: 10px;
+    
+}
+
+.insta-arc img {
+    margin-top: 60px;
+    border-radius: 10px;
 }
 
     </style>
