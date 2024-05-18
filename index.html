@@ -83,10 +83,12 @@
 
     <section id="contact">
         <h1>Contact Me</h1>
-        <form id="contact-form">
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message" required></textarea>
+        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form">
+            <input type="hidden" name="access_key" value="cccfa0d1-ad85-4e64-8739-3f9582058d68">
+            <input type="text" placeholder="Your Name" name="name" required>
+            <input type="email" placeholder="Your Email" name="email" required>
+            <textarea placeholder="Your Message" name="message" required></textarea>
+            <div class="h-captcha" data-captcha="true"></div>
             <button type="submit">Send Message</button>
         </form>
     </section>
@@ -254,6 +256,6 @@ section {
 
     </style>
 
-    <script src="script.js"></script>
+<script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
